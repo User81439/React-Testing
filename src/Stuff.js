@@ -8,7 +8,7 @@ class Stuff extends Component {
     date: new Date(),
   }
 
-  onChange = date => this.setState({ date })
+  //onChange = date => this.setState({ date })
 
   render() {
     return (
@@ -34,12 +34,13 @@ class Stuff extends Component {
             <li>Eget erat</li>
             <li>Id porttitor</li>
           </ol>
-          </div>
+        </div>
         <div class="column">
           <Calendar
             onChange={this.onChange}
             value={this.state.date}
           />
+
         </div>
 
       </div>
